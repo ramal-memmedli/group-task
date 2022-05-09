@@ -2001,6 +2001,7 @@ main .c-section4 .c-section4-image img {
 }
 
 .navbar-main-container .navbar-inner-container .navbar-nav-items-container .navbar-nav-items-inner .navbar-nav-item a {
+  color: #FFF;
   text-decoration: none;
 }
 
@@ -2248,7 +2249,12 @@ main .c-section4 .c-section4-image img {
 }
 
 .navbar-main-container .navbar-inner-container .navbar-nav-items-container .menu-main-container .menu-inner-container .menu-inner-right .menu-inner-navigation-items .menu-nav-items-inner .menu-inner-nav-item a {
+  color: #040504;
   text-decoration: none;
+}
+
+.navbar-main-container .navbar-inner-container .navbar-nav-items-container .menu-main-container .menu-inner-container .menu-inner-right .menu-inner-navigation-items .menu-nav-items-inner .menu-inner-nav-item a:hover {
+  color: #d4352a;
 }
 
 .navbar-main-container .navbar-inner-container .navbar-nav-items-container .menu-main-container .menu-inner-container .menu-inner-right .menu-inner-navigation-items .menu-nav-items-inner .menu-inner-nav-item:hover {
@@ -2644,6 +2650,7 @@ main .c-section4 .c-section4-image img {
 }
 
 .navbar-main-container .navbar-inner-container .navbar-nav-items-container .navbar-nav-items-inner .navbar-nav-item a {
+  color: #FFF;
   text-decoration: none;
 }
 
@@ -4148,6 +4155,7 @@ ul {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  overflow: hidden;
 }
 
 .page2-main-container .page2-text-container {
@@ -4268,6 +4276,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow: hidden;
 }
 
 .page3-main-container .page3-inner-container {
@@ -4348,6 +4357,10 @@ body main {
   font-family: 'Roboto', sans-serif;
 }
 
+body main section#home_problem {
+  overflow: hidden;
+}
+
 body main section#home_problem .home-problem-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4363,6 +4376,7 @@ body main section#home_problem .home-problem-container .home-problem-text-conten
 
 body main section#home_problem .home-problem-container .home-problem-text-content .home-problem-text-content-title {
   padding: 7rem;
+  overflow: hidden;
 }
 
 body main section#home_problem .home-problem-container .home-problem-text-content .home-problem-text-content-title h1 {
@@ -4416,16 +4430,23 @@ body main section#home_problem .home-problem-container .home-problem-image-conte
   height: auto;
 }
 
+body main section#home_solution {
+  overflow: hidden;
+}
+
 body main section#home_solution .home-solution-container {
   padding: 1rem;
+  overflow: hidden;
 }
 
 body main section#home_solution .home-solution-container .home-solution-content {
   width: 85%;
+  overflow: hidden;
 }
 
 body main section#home_solution .home-solution-container .home-solution-content .home-solution-content-title {
   padding: 7rem 7rem 0 7rem;
+  overflow: hidden;
 }
 
 body main section#home_solution .home-solution-container .home-solution-content .home-solution-content-title h1 {
@@ -4451,6 +4472,7 @@ body main section#home_solution .home-solution-container .home-solution-content 
       -ms-flex-align: baseline;
           align-items: baseline;
   padding: 0 7rem;
+  overflow: hidden;
 }
 
 body main section#home_solution .home-solution-container .home-solution-content .home-solution-content-context p {
@@ -4459,6 +4481,7 @@ body main section#home_solution .home-solution-container .home-solution-content 
   opacity: .75;
   margin-right: 1rem;
   line-height: 1.5rem;
+  overflow: hidden;
 }
 
 body main section#home_solution .home-solution-container .home-solution-content .home-solution-content-context p:first-child {
@@ -4513,6 +4536,7 @@ body main section#home_statistics_cards {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  overflow: hidden;
 }
 
 body main section#home_statistics_cards .home-statistics-card {
@@ -4520,6 +4544,7 @@ body main section#home_statistics_cards .home-statistics-card {
   width: 48%;
   border-radius: .3rem;
   margin-bottom: 3rem;
+  overflow: hidden;
 }
 
 body main section#home_statistics_cards .home-statistics-card .home-statistics-card-top {

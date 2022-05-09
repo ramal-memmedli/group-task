@@ -1,0 +1,200 @@
+* {
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: roboto-thin;
+  src: url(../fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family: roboto-regular;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto-bold;
+  src: url(../fonts/Roboto-Black.ttf);
+}
+
+.product_main_container .product_hero_container {
+  background-image: url(../images/brainbox2.png);
+  width: 1368px;
+  max-width: 100%;
+  height: 450px;
+  background-attachment: fixed;
+}
+
+.product_main_container .product_hero_container .product_text_container .product_maintext_container {
+  color: white;
+  font-size: 160%;
+  margin: 10px 0px;
+  padding: 50px;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  font-style: normal;
+  font-weight: 300;
+  max-width: 720px;
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.product_main_container .product_hero_container .product_text_container .span_product {
+  margin-top: 30px;
+  color: red;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.product_accordion_container {
+  height: 150vh;
+  background-color: #040504;
+  color: aliceblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product_accordion_container .pr_btn .product_acc_text {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.product_accordion_container .pr_btn .product_acc_text .pr_accordion_p_tag {
+  color: black;
+}
+
+.product_accordion_container .pr_btn .pr_accordion_span_tag {
+  font-size: 500%;
+  max-width: 68px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.product_accordion_container .product1_inner {
+  color: white;
+  font-size: x-large;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.product_accordion_container .product1_inner .product-box .product-box-visible {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product_accordion_container .product1_inner .product-button {
+  background-color: #1d1d1d;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.product_accordion_container .product1_inner .product-inner {
+  color: white;
+  padding: 0 18px;
+  background-color: #5e5e53;
+}
+
+.product_accordion_container .product1_inner .product-inner .ul {
+  padding-top: 1.25rem;
+  padding-bottom: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.active,
+.product-button:hover {
+  background-color: #ccc;
+}
+
+.product_end-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.product_end-container .product-footer_copy {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product_A {
+  height: 140vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product_A .product_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+.product_A .product_card .product_learn {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.product_A .product_card .product_learn .pr_learn {
+  color: red;
+}
+
+.product_A .product_card .product_learn .product_improve {
+  color: red;
+}
+
+.product_A .product_card_hero {
+  width: 50%;
+  height: 920px;
+}
+
+@media screen and (max-width: 760px) {
+  .product_card_hero {
+    width: 100%;
+  }
+}
+
+.product-features-item .product-features-item-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.product-features-item .product-features-item-heading .product-features {
+  width: 50%;
+  padding: 50px;
+  font-size: 32px;
+  margin: 50px auto;
+}
+
+.product-features-item .product-features-item-heading .product-features-form ul li {
+  padding: 10px;
+}
+/*# sourceMappingURL=product.css.map */

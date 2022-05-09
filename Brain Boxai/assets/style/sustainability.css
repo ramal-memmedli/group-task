@@ -1,0 +1,414 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sus-first-text {
+  font-size: 150px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+}
+
+.sus-first-text .sus-text-were {
+  padding-left: 10%;
+  padding-top: 10%;
+  text-align: center;
+}
+
+.sus-first-text .sus-text-business {
+  padding-left: 22%;
+}
+
+.sus-first-text .sus-text-heal {
+  color: #d4352a;
+  padding-left: 50%;
+}
+
+.sus-first-text .sus-text-our {
+  padding-left: 22%;
+}
+
+.sus-first-text .sus-text-planet {
+  padding-left: 50%;
+}
+
+@media (min-width: 370px) and (max-width: 800px) {
+  .sus-first-text {
+    font-size: 70px;
+  }
+}
+
+.sus-second-text {
+  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5%;
+}
+
+.sus-second-text .sus-text-weBring {
+  padding-top: 30%;
+}
+
+.sus-second-text .sus-text-weGrowing {
+  padding-top: 5%;
+}
+
+@media (min-width: 370px) and (max-width: 800px) {
+  .sus-second-text {
+    font-size: 30px;
+  }
+}
+
+.sus-textImage {
+  height: 200vh;
+}
+
+.sus-textImage .sus-textImage-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50%;
+}
+
+.sus-textImage .sus-textImage-1 .sus-Increase-text {
+  width: 50%;
+  height: 100%;
+  padding-top: 40%;
+  padding-left: 10%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sus-textImage .sus-textImage-1 .sus-Increase-text .sus-why {
+  color: #d4352a;
+  padding-bottom: 5%;
+}
+
+.sus-textImage .sus-textImage-1 .sus-Increase-text .sus-Increase {
+  font-size: 60px;
+}
+
+.sus-textImage .sus-textImage-1 .sus-Increase-text .sus-raise {
+  color: #5e5e5e;
+  font-size: 20px;
+  padding-right: 40%;
+  padding-top: 5%;
+}
+
+.sus-textImage .sus-textImage-1 .sus-Increase-image {
+  padding-top: 20%;
+}
+
+.sus-textImage .sus-textImage-1 .sus-Increase-image .sus-image1 {
+  width: 800px;
+}
+
+@media (min-width: 370px) and (max-width: 800px) {
+  .sus-textImage .sus-textImage-1 {
+    display: block;
+  }
+  .sus-textImage .sus-textImage-1 .sus-Increase-image .sus-image1 {
+    width: 470px;
+  }
+}
+
+.sus-textImage .sus-textImage-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50%;
+}
+
+.sus-textImage .sus-textImage-3 .sus-Satisfy-text {
+  width: 50%;
+  height: 100%;
+  padding-top: 40%;
+  padding-left: 10%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sus-textImage .sus-textImage-3 .sus-Satisfy-text .sus-why {
+  color: #d4352a;
+  padding-top: 50%;
+  padding-bottom: 5%;
+}
+
+@media (min-width: 370px) and (max-width: 800px) {
+  .sus-textImage .sus-textImage-3 .sus-Satisfy-text .sus-why {
+    padding-top: 500px;
+  }
+}
+
+.sus-textImage .sus-textImage-3 .sus-Satisfy-text .sus-Satisfy {
+  font-size: 60px;
+}
+
+@media (min-width: 370px) and (max-width: 800px) {
+  .sus-textImage .sus-textImage-3 .sus-Satisfy-text .sus-Satisfy {
+    font-size: 30px;
+    padding-top: 10px;
+  }
+}
+
+.sus-textImage .sus-textImage-3 .sus-Satisfy-text .sus-ensure {
+  color: #5e5e5e;
+  font-size: 20px;
+  padding-right: 40%;
+  padding-top: 5%;
+}
+
+.sus-textImage .sus-textImage-3 .sus-Satisfy-image {
+  padding-top: 40%;
+}
+
+.sus-textImage .sus-textImage-3 .sus-Satisfy-image .sus-image3 {
+  width: 800px;
+}
+
+@media (min-width: 370px) and (max-width: 800px) {
+  .sus-textImage .sus-textImage-3 {
+    display: block;
+  }
+  .sus-textImage .sus-textImage-3 .sus-Satisfy-image .sus-image3 {
+    width: 470px;
+    padding-top: 30%;
+  }
+}
+
+.sus-climate-action {
+  padding-top: 85%;
+  position: relative;
+}
+
+.sus-climate-action .sus-climate {
+  padding-left: 10%;
+  color: #d4352a;
+}
+
+@media (min-width: 370px) and (max-width: 800px) {
+  .sus-climate-action .sus-climate {
+    padding-left: 10%;
+    color: #d4352a;
+  }
+}
+
+.sus-climate-action .sus-exceed {
+  font-size: 60px;
+  padding-left: 10%;
+  padding-top: 7%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (min-width: 370px) and (max-width: 800px) {
+  .sus-climate-action .sus-exceed {
+    font-size: 20px;
+    padding-left: 10%;
+    padding-top: 80%;
+  }
+}
+
+.sus-climate-action .sus-with {
+  padding-left: 23%;
+}
+
+.sus-climate-action .sus-decrease {
+  color: #5e5e5e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  padding-right: 10%;
+  padding-left: 60%;
+  padding-top: 20%;
+}
+
+@media (min-width: 370px) and (max-width: 800px) {
+  .sus-climate-action .sus-decrease {
+    font-size: 10px;
+    padding-left: 60%;
+    padding-top: 40%;
+  }
+}
+
+@media (min-width: 370px) and (max-width: 800px) {
+  .sus-climate-action {
+    padding-top: 900px;
+  }
+}
+
+.sus-toggle-main {
+  margin-left: 15%;
+  padding-top: 10%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sus-toggle-main .sus-check {
+  width: 30px;
+}
+
+.sus-toggle-main .sus-toggle-item-text {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-size: 25px;
+  padding-left: 30px;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.sus-toggle-main .sus-toggle-item-inner {
+  display: none;
+  margin-left: 3%;
+  padding-top: 2%;
+  font-size: 25px;
+}
+
+.sus-toggle-main .sus-button-onclick {
+  margin-left: 60%;
+  margin-top: 5%;
+  border: none;
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+@media (min-width: 370px) and (max-width: 800px) {
+  .sus-toggle-main .sus-button-onclick {
+    margin-left: 4%;
+  }
+}
+
+.sus-toggle-main .sus-button-onclick1 {
+  margin-left: 50.5%;
+  margin-top: 5%;
+  border: none;
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+@media (min-width: 370px) and (max-width: 800px) {
+  .sus-toggle-main .sus-button-onclick1 {
+    margin-left: 5%;
+  }
+}
+
+.sus-toggle-main .sus-button-onclick:hover {
+  color: #d4352a;
+}
+
+.sus-toggle-main .sus-button-onclick1:hover {
+  color: #d4352a;
+}
+
+.sus-toggle-main .sus-toggle-item-text:hover {
+  color: #d4352a;
+}
+
+.sus-textImage2 {
+  padding-left: 40%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sus-textImage2 .sus-text-our {
+  font-size: 50px;
+  padding-top: 30%;
+}
+
+@media (min-width: 370px) and (max-width: 800px) {
+  .sus-textImage2 .sus-text-our {
+    font-size: 25px;
+    padding-top: 30%;
+  }
+}
+
+.sus-textImage2 .sus-our {
+  padding-left: 25%;
+}
+
+.sus-textImage2 .sus-img-venne {
+  width: 150px;
+  border-radius: 5%;
+  padding-top: 10%;
+}
+
+.sus-textImage2 .sus-nameVenne {
+  font-size: 25px;
+}
+
+.sus-textImage2 .sus-co-founder {
+  font-size: 15px;
+  color: #5e5e5e;
+  padding-left: 14%;
+}
+
+.sus-sustainability-lidership {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sus-sustainability-lidership .sus-lidership {
+  color: #d4352a;
+  padding-left: 10%;
+}
+
+.sus-sustainability-lidership .sus-our-impact {
+  font-size: 60px;
+  padding-left: 5%;
+  padding-top: 7%;
+}
+
+@media (min-width: 370px) and (max-width: 800px) {
+  .sus-sustainability-lidership .sus-our-impact {
+    font-size: 25px;
+    padding-left: 5%;
+    padding-top: 7%;
+    padding-bottom: 10%;
+  }
+}
+
+.sus-sustainability-lidership .sus-collab {
+  padding-left: 10%;
+}
+
+.sus-talk {
+  position: relative;
+}
+
+.sus-talk .sus-save-time {
+  background-color: #d4352a;
+  color: #fff;
+  font-size: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  position: absolute;
+  top: -50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2% 13% 15% 2%;
+}
+
+@media (min-width: 370px) and (max-width: 800px) {
+  .sus-talk .sus-save-time {
+    font-size: 10px;
+  }
+}
+
+.sus-talk .sus-image-lance {
+  width: 100%;
+}
+
+@media (min-width: 370px) and (max-width: 800px) {
+  .sus-talk .sus-image-lance {
+    width: 470px;
+  }
+}
+/*# sourceMappingURL=sustainability.css.map */

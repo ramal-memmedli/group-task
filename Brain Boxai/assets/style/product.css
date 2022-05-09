@@ -91,6 +91,7 @@
 }
 
 .navbar-main-container .navbar-inner-container .navbar-nav-items-container .navbar-nav-items-inner .navbar-nav-item a {
+  color: #FFF;
   text-decoration: none;
 }
 
@@ -338,7 +339,12 @@
 }
 
 .navbar-main-container .navbar-inner-container .navbar-nav-items-container .menu-main-container .menu-inner-container .menu-inner-right .menu-inner-navigation-items .menu-nav-items-inner .menu-inner-nav-item a {
+  color: #040504;
   text-decoration: none;
+}
+
+.navbar-main-container .navbar-inner-container .navbar-nav-items-container .menu-main-container .menu-inner-container .menu-inner-right .menu-inner-navigation-items .menu-nav-items-inner .menu-inner-nav-item a:hover {
+  color: #d4352a;
 }
 
 .navbar-main-container .navbar-inner-container .navbar-nav-items-container .menu-main-container .menu-inner-container .menu-inner-right .menu-inner-navigation-items .menu-nav-items-inner .menu-inner-nav-item:hover {

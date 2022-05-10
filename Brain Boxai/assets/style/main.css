@@ -1915,6 +1915,10 @@ main .c-section4 .c-section4-image img {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 @font-face {
   font-family: roboto-thin;
   src: url(../fonts/Roboto-Thin.ttf);

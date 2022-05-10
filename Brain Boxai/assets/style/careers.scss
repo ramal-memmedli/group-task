@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 @font-face {
   font-family: roboto-thin;
   src: url(../fonts/Roboto-Thin.ttf);
@@ -61,6 +65,7 @@
           position: relative;
           cursor: pointer;
           a {
+            color: #FFF;
             text-decoration: none;
           }
         }
@@ -227,14 +232,18 @@
                 .menu-inner-nav-item {
                   font-size: 4rem;
                   font-family: roboto-thin;
-                  transition: 0.4s;
+                  
                   cursor: pointer;
                   a {
+                    transition: 0.4s;
+                    color: #040504;
                     text-decoration: none;
                   }
                 }
                 .menu-inner-nav-item:hover {
-                  color: #d4352a;
+                  a {
+                    color: #d4352a;
+                  }
                 }
               }
             }
